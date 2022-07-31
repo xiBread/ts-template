@@ -1,0 +1,29 @@
+{
+	"name": "template",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"author": "Oscar <oscar.leevermeren@gmail.com>",
+	"scripts": {
+		"start": "",
+		"build": "rimraf dist && tsc --build",
+		"test": "",
+		"style": "npm run lint:fix && prettier",
+		"lint": "eslint src --ext .ts",
+		"lint:fix": "npm run lint -- --fix",
+		"prettier": "prettier -w src"
+	},
+	"dependencies": {
+		"tslib": "^2.4.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.6.3",
+		"@typescript-eslint/eslint-plugin": "^5.31.0",
+		"@typescript-eslint/parser": "^5.31.0",
+		"eslint": "^8.20.0",
+		"eslint-config-prettier": "^8.5.0",
+		"prettier": "^2.7.1",
+		"typescript": "^4.7.4"
+	}
+}
