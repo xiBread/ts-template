@@ -48,7 +48,16 @@
 			2,
 			"method"
 		],
-		"@typescript-eslint/naming-convention": 2,
+		"@typescript-eslint/naming-convention": [
+			2,
+			{
+				"selector": "enumMember",
+				"format": [
+					"PascalCase",
+					"UPPER_CASE"
+				]
+			}
+		],
 		"@typescript-eslint/no-explicit-any": 0,
 		"@typescript-eslint/no-invalid-this": [
 			2,
