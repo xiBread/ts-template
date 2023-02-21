@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"author": "Oscar <oscar.leevermeren@gmail.com>",
+	"author": "Oscar Lee-Vermeren <oscar.leevermeren@gmail.com>",
 	"scripts": {
 		"start": "",
 		"build": "rimraf dist && tsc --build",
@@ -14,16 +14,19 @@
 		"lint:fix": "npm run lint -- --fix",
 		"prettier": "prettier -w src"
 	},
+	"prettier": "@xibread/prettier-config",
 	"dependencies": {
-		"tslib": "^2.4.0"
+		"tslib": "^2.5.0"
 	},
 	"devDependencies": {
-		"@types/node": "^18.7.13",
-		"@typescript-eslint/eslint-plugin": "^5.35.1",
-		"@typescript-eslint/parser": "^5.35.1",
-		"eslint": "^8.22.0",
-		"eslint-config-prettier": "^8.5.0",
-		"prettier": "^2.7.1",
-		"typescript": "^4.8.2"
+		"@types/node": "^18.14.0",
+		"@typescript-eslint/eslint-plugin": "^5.53.0",
+		"@typescript-eslint/parser": "^5.53.0",
+		"@xibread/prettier-config": "^1.0.0",
+		"@xibread/tsconfig": "^1.0.0",
+		"eslint": "^8.34.0",
+		"eslint-config-prettier": "^8.6.0",
+		"prettier": "^2.8.4",
+		"typescript": "^4.9.5"
 	}
 }

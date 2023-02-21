@@ -1,19 +1,5 @@
 {
-	"compilerOptions": {
-		"esModuleInterop": true,
-		"module": "CommonJS",
-		"moduleResolution": "node",
-		"lib": [
-			"ESNext"
-		],
-		"target": "ESNext",
-		"importHelpers": true,
-		"outDir": "dist",
-		"alwaysStrict": true,
-		"strict": true,
-		"removeComments": false,
-		"skipLibCheck": true
-	},
+	"extends": "@xibread/tsconfig",
 	"include": [
 		"**/*.ts"
 	]
