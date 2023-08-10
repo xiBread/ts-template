@@ -14,7 +14,12 @@
 		"lint:fix": "npm run lint -- --fix",
 		"prettier": "prettier -w src"
 	},
-	"prettier": "@xibread/prettier-config",
+	"prettier": {
+		"htmlWhitespaceSensitivity": "ignore",
+		"printWidth": 100,
+		"tabWidth": 4,
+		"useTabs": true
+	},
 	"dependencies": {
 		"tslib": "^2.6.1"
 	},
@@ -22,7 +27,6 @@
 		"@types/node": "^20.4.8",
 		"@typescript-eslint/eslint-plugin": "^6.2.1",
 		"@typescript-eslint/parser": "^6.2.1",
-		"@xibread/prettier-config": "^1.1.1",
 		"@xibread/tsconfig": "^1.0.1",
 		"eslint": "^8.46.0",
 		"eslint-config-prettier": "^9.0.0",
