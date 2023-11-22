@@ -28,12 +28,14 @@ module.exports = defineConfig({
 		"default-param-last": "error",
 		"no-empty": "off",
 		"no-trailing-spaces": "error",
+		"no-unused-vars": "off",
 		"@typescript-eslint/ban-ts-comment": "off",
 		"@typescript-eslint/consistent-type-definitions": ["warn", "interface"],
 		"@typescript-eslint/consistent-type-imports": [
 			"error",
 			{
 				prefer: "type-imports",
+				fixStyle: "inline-type-imports",
 			},
 		],
 		"@typescript-eslint/explicit-member-accessibility": "error",
@@ -60,5 +62,6 @@ module.exports = defineConfig({
 				allowConstantLoopConditions: true,
 			},
 		],
+		"@typescript-eslint/no-unused-vars": "off",
 	},
 });
