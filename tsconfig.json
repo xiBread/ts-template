@@ -1,5 +1,21 @@
 {
-	"extends": "@xibread/tsconfig",
+	"compilerOptions": {
+		"outDir": "./dist",
+		"declaration": true,
+		"declarationDir": "./dist/types",
+		"strict": true,
+		"moduleResolution": "Node",
+		"target": "ESNext",
+		"lib": [
+			"ESNext"
+		],
+		"skipLibCheck": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"verbatimModuleSyntax": true,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true
+	},
 	"include": [
 		"**/*.ts"
 	]
