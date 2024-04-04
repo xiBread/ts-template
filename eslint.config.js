@@ -4,6 +4,9 @@ export default config({
 	rules: {
 		"curly": "off",
 		"no-console": "off",
+		"jsonc/sort-keys": "off",
+		"ts/ban-ts-comment": "off",
+		"ts/prefer-ts-expect-error": "off",
 	},
 	stylistic: {
 		indent: "tab",
@@ -12,11 +15,6 @@ export default config({
 		overrides: {
 			"antfu/if-newline": "off",
 			"style/max-len": ["error", { code: 100 }],
-		},
-	},
-	typescript: {
-		overrides: {
-			"ts/ban-ts-comment": "off",
 		},
 	},
 	jsx: false,
