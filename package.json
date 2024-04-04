@@ -7,6 +7,12 @@
 	"types": "./dist/index.d.ts",
 	"author": "Oscar Lee-Vermeren <oscar.leevermeren@gmail.com>",
 	"packageManager": "pnpm@8.15.6",
+	"prettier": {
+		"semi": true,
+		"tabWidth": 4,
+		"useTabs": true,
+		"printWidth": 100
+	},
 	"scripts": {
 		"start": "",
 		"build": "tsup",
@@ -21,6 +27,8 @@
 		"@types/node": "^20.12.4",
 		"@typescript-eslint/eslint-plugin": "^7.5.0",
 		"@typescript-eslint/parser": "^7.5.0",
+		"eslint-config-prettier": "^9.1.0",
+		"prettier": "^3.2.5",
 		"tsup": "^8.0.2",
 		"typescript": "^5.4.3"
 	}

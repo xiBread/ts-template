@@ -17,6 +17,12 @@ devDependencies:
   '@typescript-eslint/parser':
     specifier: ^7.5.0
     version: 7.5.0(eslint@8.57.0)(typescript@5.4.3)
+  eslint-config-prettier:
+    specifier: ^9.1.0
+    version: 9.1.0(eslint@8.57.0)
+  prettier:
+    specifier: ^3.2.5
+    version: 3.2.5
   tsup:
     specifier: ^8.0.2
     version: 8.0.2(typescript@5.4.3)
@@ -1404,6 +1410,15 @@ packages:
       parse-gitignore: 2.0.0
     dev: true
 
+  /eslint-config-prettier@9.1.0(eslint@8.57.0):
+    resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
+    hasBin: true
+    peerDependencies:
+      eslint: '>=7.0.0'
+    dependencies:
+      eslint: 8.57.0
+    dev: true
+
   /eslint-flat-config-utils@0.2.0:
     resolution: {integrity: sha512-8jLkFKKBAzWPBEjygdH/P9Y/c+K9AcuMAig9u/4/x7mtsDRHj8EdgEJHX1IEvOTAbZiWXEUoZqiKZUIx/1FWKg==}
     dependencies:
@@ -2725,6 +2740,12 @@ packages:
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
+    dev: true
+
+  /prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /punycode@2.3.1:
