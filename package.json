@@ -18,9 +18,9 @@
 		"build": "tsup",
 		"test": "",
 		"style": "pnpm lint:fix && prettier",
-		"lint": "eslint src --ext .ts",
-		"lint:fix": "pnpm lint -- --fix",
-		"prettier": "prettier -w src"
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"prettier": "prettier -w ."
 	},
 	"devDependencies": {
 		"@antfu/eslint-config": "^2.12.1",
