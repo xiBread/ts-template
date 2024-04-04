@@ -5,9 +5,8 @@
 		"strict": true,
 		"skipLibCheck": true,
 		"target": "ES2022",
-		"module": "ESNext",
+		"module": "Preserve",
 		"moduleDetection": "force",
-		"moduleResolution": "Bundler",
 		"esModuleInterop": true,
 		"verbatimModuleSyntax": true,
 		"resolveJsonModule": true
